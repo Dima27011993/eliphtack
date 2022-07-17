@@ -1,0 +1,36 @@
+a.shops{
+    text-decoration: none;
+    color:slategray;
+    align-items: center;
+}
+.linkShops{
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.InnerShops{
+border: 1px solid grey;
+border-radius: 20%;
+padding: 20px;
+box-sizing: border-box;
+margin: 10px;
+width: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.wraperNav{
+    align-items: center;
+    border: 1px solid grey;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.wraperNav a.shops{
+    align-items: center;
+}

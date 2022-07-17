@@ -1,0 +1,133 @@
+.formShoppingCard{
+    display: flex;
+}
+
+.totalPriceAndSubmit{
+display: flex;
+justify-content: end;
+margin-top: 20px;
+}
+
+.pPriceandSubmit{
+margin-right: 20px;
+}
+
+.buttonPriceandSubmit{
+margin-right: 20px;
+padding: 10px;
+width: 150px;
+border-radius: 10px;
+border: 1px solid grey;
+background-color: white;
+font-weight: bold;
+font-size: 20px;
+}
+
+.formContentNavigationShoppingCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ContentLeftForm{
+display: flex;
+border: 1px solid grey;
+border-radius: 20px;
+padding: 10px;
+box-sizing: border-box;
+width: 50%;
+}
+
+.wrapFormContent{
+    padding: 10px;
+    width: 100%;
+}
+
+.wrapFormContent input[placeholder="Input"]{
+    display: flex;
+    padding-left: 120px;
+    box-sizing: border-box;
+    width: 80%;
+    padding-left: 200px;
+}
+
+.wrapFormContent input{
+    display: flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.wrapFormContent input{
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+.ContentRightForm{
+    width: 50%;
+}
+
+.ContentShopingCard{
+    display: flex;
+}
+
+.wrapperContent {
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding-top: 46px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxContent {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+    padding: 10px 10px 15px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.contentBottom {
+}
+
+.InnerContentBox {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+
+.ButtonInnerContentBox {
+    margin-left: 150px;
+    padding: 14px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.contentTop {
+    width: 300px;
+    height: 150px;
+}
+
+.contentTop img{
+    width: 100%;
+    height: 100%;
+}
+
+.photoInner {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}

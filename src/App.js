@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ShopLink from "./Title/ShopMainLink";
+import ShopingCardLink from "./Title/ShopingCardLink/ShopingCardLink";
+import MainNavigation from "./MainNavigation/MainNavigation";
+import ContentNavigationShop from "./ContentNavigation/ContentNavigationShop";
+// import ContentNavigationShoppingCard from "./ContentNavigationShoppingCard/ContentNavigationShopingCard";
+import React from "react";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <div className="wrapLink">
+        <ShopLink />
+        <ShopingCardLink />
+      </div>
+
+      <div className="wrapLink_nav_and_content">
+        <MainNavigation />
+        <ContentNavigationShop />
+        {/* <ContentNavigationShoppingCard/> */}
+      </div>
     </div>
   );
-}
+};
 
 export default App;

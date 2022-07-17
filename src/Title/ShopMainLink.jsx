@@ -1,10 +1,11 @@
 import React from "react"
 import mod from './ShopMainLink.module.css'
+import {NavLink} from 'react-router-dom'
 const ShopLink = ()=>{
 return(
     <div>
         <div className={mod.linkShop}>
-<a className={mod.shop} href="/shop">shop</a>
+<NavLink to="/shop" className={mod.shop}>shop</NavLink> 
 </div>
 </div>
 )

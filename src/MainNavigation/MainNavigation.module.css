@@ -3,6 +3,10 @@ a.shops{
     color:slategray;
     align-items: center;
 }
+a.shops:active{
+    color:gold;
+    text-decoration: none;
+}
 .linkShops{
     align-items: center;
     margin-left: 20px;
@@ -21,6 +25,9 @@ width: 150px;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+.InnerShops:hover{
+    background-color: gold;
 }
 
 .wraperNav{

@@ -17,7 +17,13 @@ const App = (props) => {
 
       <div className="wrapLink_nav_and_content">
         <Route path="/shop" render={()=><MainNavigation/>}/>
-        <Route path="/shop" render={()=><ContentNavigationShop/>}/>
+
+        <Route path="/McDonny" render={()=><MainNavigation/>}/>
+        <Route path="/McDonny" render={()=><ContentNavigationShop/>}/>
+
+        <Route path="/CFK" render={()=><MainNavigation/>}/>
+        <Route path="/CFK" render={()=><ContentNavigationShop/>}/>
+
         <Route path="/shopingCard" render={()=><ContentNavigationShoppingCard/>}/>
       </div>
     </div>

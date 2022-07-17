@@ -50,3 +50,7 @@
     width: 100px;
     height: 100px;
 }
+.NavLinkContentBox {
+    text-decoration: none;
+    color:black;
+}
